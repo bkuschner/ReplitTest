@@ -72,19 +72,19 @@ export default function Header() {
         )}>
           <button
             onClick={() => handleNavClick("features")}
-            className="block w-full text-left py-2 px-3 rounded-md text-gray-600 hover:bg-gray-100 hover:text-primary-600 font-medium transition-colors"
+            className="block w-full text-left py-2 px-3 rounded-md text-gray-600 hover:bg-gray-100 hover:text-blue-600 font-medium transition-colors"
           >
             Features
           </button>
           <button
             onClick={() => handleNavClick("about")}
-            className="block w-full text-left py-2 px-3 rounded-md text-gray-600 hover:bg-gray-100 hover:text-primary-600 font-medium transition-colors"
+            className="block w-full text-left py-2 px-3 rounded-md text-gray-600 hover:bg-gray-100 hover:text-blue-600 font-medium transition-colors"
           >
             About
           </button>
           <button
             onClick={() => handleNavClick("waitlist")}
-            className="block w-full text-left py-2 px-3 rounded-md text-gray-600 hover:bg-gray-100 hover:text-primary-600 font-medium transition-colors"
+            className="block w-full text-left py-2 px-3 rounded-md text-gray-600 hover:bg-gray-100 hover:text-blue-600 font-medium transition-colors"
           >
             Join Waitlist
           </button>

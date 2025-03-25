@@ -16,32 +16,32 @@ type Feature = {
 export default function FeaturesSection() {
   const features: Feature[] = [
     {
-      icon: <Zap className="w-8 h-8 text-primary-600" />,
+      icon: <Zap className="w-8 h-8 text-blue-600" />,
       title: "Lightning Fast",
       description: "Our platform is optimized for speed, ensuring that your workflows are never bottlenecked."
     },
     {
-      icon: <Lock className="w-8 h-8 text-primary-600" />,
+      icon: <Lock className="w-8 h-8 text-blue-600" />,
       title: "Enterprise Security",
       description: "Your data is protected with bank-level security protocols and end-to-end encryption."
     },
     {
-      icon: <Users className="w-8 h-8 text-primary-600" />,
+      icon: <Users className="w-8 h-8 text-blue-600" />,
       title: "Team Collaboration",
       description: "Seamless collaboration tools that bring your team together, no matter where they are."
     },
     {
-      icon: <ClipboardList className="w-8 h-8 text-primary-600" />,
+      icon: <ClipboardList className="w-8 h-8 text-blue-600" />,
       title: "Advanced Analytics",
       description: "Gain insights with our powerful analytics dashboard that helps you make data-driven decisions."
     },
     {
-      icon: <LayoutGrid className="w-8 h-8 text-primary-600" />,
+      icon: <LayoutGrid className="w-8 h-8 text-blue-600" />,
       title: "Intuitive Interface",
       description: "A beautiful, clean interface designed for maximum productivity and minimal learning curve."
     },
     {
-      icon: <Bell className="w-8 h-8 text-primary-600" />,
+      icon: <Bell className="w-8 h-8 text-blue-600" />,
       title: "Smart Notifications",
       description: "Stay in the loop with intelligent notifications that prioritize what matters most to you."
     }
@@ -63,7 +63,7 @@ export default function FeaturesSection() {
               key={index}
               className="feature-card bg-white rounded-xl shadow-md p-6 transition-all duration-300 hover:translate-y-[-5px] hover:shadow-lg"
             >
-              <div className="rounded-full bg-primary-100 w-14 h-14 flex items-center justify-center mb-4">
+              <div className="rounded-full bg-blue-100 w-14 h-14 flex items-center justify-center mb-4">
                 {feature.icon}
               </div>
               <h3 className="text-xl font-semibold mb-3">{feature.title}</h3>
